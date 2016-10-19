@@ -1,6 +1,6 @@
 //Author: BRONYDELL
 //DATE: 31.05.2016
-package model;
+package ru.msce.model;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package model;
+package ru.msce.model;
 
 public class Lesson {
 	private String lesson;
