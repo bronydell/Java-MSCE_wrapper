@@ -11,7 +11,5 @@ Result: "Date" object with Date and Groups
 
 
 >MSCE.getStudentDates();
-
 Result: ArrayList of Strings
-
 Example: 2016-09-01
