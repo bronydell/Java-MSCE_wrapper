@@ -4,12 +4,17 @@
 
 Example:
 >MSCE.getStudent();
-Result: "Date" object with Date and Groups
-"Group" contains lesson objects with group label
-"Lesson" contains audience, lesson title and number
 
+>Result: "Date" object with Date and Groups
 
+>"Group" contains lesson objects with group label
+
+>"Lesson" contains audience, lesson title and number
+
+Another example:
 
 >MSCE.getStudentDates();
-Result: ArrayList of Strings
-Example: 2016-09-01
+
+>Result: ArrayList of Strings
+
+>Example: 2016-09-01
