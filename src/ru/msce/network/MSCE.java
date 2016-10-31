@@ -23,8 +23,20 @@ public class MSCE {
 		return Networking.getGroupByURL(baseURL + "getStudent?group=" + group);
 	}
 
-	public static Group getTeacher(String group, String date) throws JsonSyntaxException, Exception {
-		return Networking.getGroupByURL(baseURL + "getTeacher?teacher=" + group + "&date = " + date);
+	public static Day getTeachers() throws JsonSyntaxException, Exception {
+		return Networking.getDayByURL(baseURL + "getTeacher");
+	}
+	
+	public static Day getTeachers(String date) throws JsonSyntaxException, Exception {
+		return Networking.getDayByURL(baseURL + "getTeacher?date = " + date);
+	}
+	
+	public static Group getTeacher(String name) throws JsonSyntaxException, Exception {
+		return Networking.getGroupByURL(baseURL + "getTeacher?teacher=" + name);
+	}
+	
+	public static Group getTeacher(String name, String date) throws JsonSyntaxException, Exception {
+		return Networking.getGroupByURL(baseURL + "getTeacher?teacher=" + name + "&date = " + date);
 	}
 
 	public static Group getGroup(String group, String date) throws JsonSyntaxException, Exception {
